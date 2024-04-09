@@ -13,7 +13,7 @@ import {
 import { BookService } from './book.service';
 import { AuthGuard } from '@nestjs/passport';
 import { CheckJwtToken } from 'src/decorators/auth.decorator';
-import { JwtAuthGuard } from '../auth/jwt.guard';
+import { JwtAuthGuard } from '../auth/guards/jwt.guard';
 import { CreateInputBookDto } from './dtos/createInput.dto';
 import { UpdateInputBookDto } from './dtos/updateInpun.dto';
 
